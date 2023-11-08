@@ -1,0 +1,74 @@
+
+
+.side-menu {
+    width: 220px;
+    background-color: var(--fgColor);
+    border-radius: var(--borderR);
+    /* height:fit-content ; */
+    display: flex;
+    flex-direction: column;
+    /* position: sticky;
+    top: 12px; */
+    /* height: 95vh; */
+    /* height: auto; */
+}
+
+.side-menu-top,.side-menu-mid {
+    border-bottom: 1px solid white;
+}
+
+.add-class {
+    padding: .6rem;
+    margin: 0.5rem;
+    border-radius: var(--borderR);
+    gap: 10px;
+    margin-bottom: 0.7rem;
+}
+
+.side-menu-mid,.side-menu-down {
+    padding: 0.5rem;
+}
+
+.side-menu-btn {
+    padding: 0.4rem 0.5rem;
+    border-radius: var(--borderR);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    /* margin: 0.5rem 0.5rem 0rem 0.5rem  ; */
+}
+
+
+
+.side-menu-btn:hover,
+.add-class:hover,.class-name-btn:hover {
+    background-color: var(--bgColor);
+    color: var(--priColor);
+    cursor: pointer;
+    border-radius:var(--borderR);
+}
+
+#classes_label:hover{
+    background-color: transparent;
+    color: none;
+    cursor: pointer;
+}
+
+
+.class-name-btn{
+    padding:.1rem 1rem ;
+    
+    /* border-top: 1px solid white;
+    border-bottom: 1px solid white; */
+}
+
+.active-class{
+    background-color: var(--bgColor);
+    color: var(--priColor);
+    cursor: pointer;
+    border-radius:var(--borderR);
+}
+
+.show{
+    display: none;
+}

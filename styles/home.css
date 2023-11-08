@@ -1,0 +1,55 @@
+/* .addClass-form {
+    background-color: var(--fg1Color);
+    border-radius: var(--borderR);
+}
+
+.addClass-input {
+    border-radius: var(--borderR);
+    padding: 2px;
+} */
+
+.copyCode-btn {
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+
+.copyCode-btn:hover{
+    background-color: var(--fg1Color);
+    border-radius: 50%;
+    color: var(--priColor);
+    position: relative;
+}
+
+.copyCode-btn:active{
+    /* border-radius: 0; */
+    background-color: var(--priColor);
+    color: var(--fg1Color);
+}
+
+.box{
+    background-color: var(--fgColor);
+    border-radius: var(--borderR);
+    background-size: 500%;
+}
+
+
+
+form input[type="text"]{
+    width: 100%;
+    margin-top: 5px;
+    /* padding: 0 .3rem; */
+}
+
+
+form input[type="submit"]{
+    border-radius: 3px;
+    width: fit-content;
+    margin-top: 1rem;
+}
+
+.class-name-btn:hover{
+    color: var(--textColor);
+    transition-duration: 0ms;
+}
