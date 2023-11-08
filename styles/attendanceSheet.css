@@ -14,15 +14,14 @@
 }
 
 .fg-bg {
-    background-color: #333; /* Change this to the desired background color */
-    color: #fff; /* Change text color for visibility */
+    background-color: #333;
+    color: #fff; 
 }
 
 .rounded {
     border-radius: 8px;
 }
 
-/* Table styles */
 .table-container {
     overflow-x: auto;
     border: 1px solid #ccc;
@@ -43,14 +42,14 @@
 }
 
 .absent {
-    background-color: #ff7f7f; /* Red color for absent status */
+    background-color: #ff7f7f; 
     color: #000;
     padding: 2px 6px;
     border-radius: 3px;
 }
 
 .present {
-    background-color: #7fff7f; /* Green color for present status */
+    background-color: #7fff7f; 
     color: #000;
     padding: 2px 6px;
     border-radius: 3px;
